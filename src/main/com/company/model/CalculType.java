@@ -1,10 +1,10 @@
 package main.com.company.model;
 
 public enum CalculType {
-    ADDITION("1", "Addition", "+"),
-    SOUSTRACTION("2", "Soustraction", "-"),
-    MULTIPLICATION("3", "Multiplication", "*"),
-    DIVISION("4", "Division", "/");
+    ADDITION("1", "Additionner", "+"),
+    SOUSTRACTION("2", "Soustraire", "-"),
+    MULTIPLICATION("3", "Multiplier", "*"),
+    DIVISION("4", "Divisais", "/");
 
     private String calculType;
 
@@ -19,5 +19,21 @@ public enum CalculType {
         this.calculType = calculNumber;
         this.calculName = calculTypeName;
         this.calculForm = calculForm;
+    }
+
+    public String getCalculType() {
+        return calculType;
+    }
+
+    public void setCalculType(String calculNumber) {
+        this.calculType = calculNumber;
+    }
+
+    public String getCalculTypeName() {
+        return calculName;
+    }
+
+    public String getCalculForm() {
+        return calculForm;
     }
 }

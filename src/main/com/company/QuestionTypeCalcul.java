@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class QuestionTypeCalcul {
 
-    private String Calcul=null;
-    private int integerCalcul=0;
-
     public int QuestionTypeCalcul() {
+        String Calcul=null;
+        int integerCalcul=0;
 
         System.out.println("Veuillez Choisir un type de calcul");
 
